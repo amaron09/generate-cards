@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;  
+}
+
+
+body {
+	margin: 0;
+	color: rgba(0, 0, 0, 0.8)
+}
+
+
+
+main {
+	width: 100%;
+	margin: 3rem auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+.card-starwars {
+	background-image: url("sw.jpg");
+
+	height: 500px;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.tag {
+	text-decoration: underline;
+	display: block;
+	padding: 1em 0 1em 0;
+}
+
+.sw-image h2 {
+	margin: 0;
+}
+
+.sw-image .tag {
+	color: #fff;
+}
+
+.sw-image {
+	color: #fff;
+	text-align: center;	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.sw-link {
+	display: inline-block;
+	padding: 1em;
+	background: #fc2331;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.sw-link:hover {
+	background: #d11924;
+}
+
+.flex-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card-slack {
+	width: 100%;
+	max-width: 400px;
+	margin-top: 3em;
+	border: 1px solid #ececec;
+	padding: 1em;
+	border-radius: 5px;
+	flex-grow: 1;
+}
+
+.card-slack h2 {
+	margin: 0;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid #215ffc;
+}
+
+.card-slack .tag {
+	color: blue;
+}
+
+.card-slack:hover {
+	box-shadow: 0 0 20px 5px #888888;
+}
+
+.slack-image {
+	width: 100%;
+}
+
+.slack-button {
+	text-align: center;
+}
+
+.slack-link {
+	display: inline-block;
+	padding: 1em;
+	background: #22acfc;
+	margin: 0 auto;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.slack-link:hover {
+	background: #215ffc;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
